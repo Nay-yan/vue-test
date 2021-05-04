@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <helloWorld></helloWorld>
 
-    <h4 class="text-info my-4">{{ title }}</h4>
+    <router-view></router-view>
+    
+    
+    <img src="./assets/logo.png" class="logo mb-4 mt-3" />
 
-    <img src="./assets/logo.png" class="logo mb-4" />
-
-    <i class="fas fa-home text-info fa-2x"></i>
+    <i class="fas fa-home text-info fa-2x  mt-3"></i>
 
     <p class="h4 mb-3 text-black-50">Total Item - {{ total }}</p>
 
@@ -26,12 +26,9 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
   data() {
     return {
       title: "Vue First Test",

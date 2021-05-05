@@ -1,24 +1,31 @@
 <template>
     <div>
         <Nav/>
-        <div class="card" style="width: 18rem;">
+      <div class="container">
+        <div class="card text-center">
+          <div class="card-header">
+            Home
+          </div>
           <div class="card-body">
-            <h3 class="card-title">Home</h3>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
           </div>
         </div>
+      </div>
 
     </div>
 </template>
 
 <script>
-import Nav from "./nav";
-    export default {
-        components:{ Nav },
-        name:"Home",
+import Nav from "../layout/nav";
+    export default { 
+      name:"Home",
+      components:{ Nav },
+       
         
     }
 </script>

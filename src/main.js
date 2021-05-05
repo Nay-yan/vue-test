@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 
 // Router 
 import Home from "./components/Home"
-import About from "./components/About"
+import Products from "./components/Products"
 import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
@@ -16,9 +16,9 @@ const routes = [{
         component: Home,
     },
     {
-        path: "/about",
-        name: "about",
-        component: About,
+        path: "/products",
+        name: "products",
+        component: Products,
     }
 ];
 

@@ -14,11 +14,13 @@
               <li class="nav-item">
                 <router-link to="/products" class="nav-link" >Products</router-link>
               </li>
+              <li class="nav-item">
+                <router-link to="/cart" class="nav-link" ><i class="fas fa-shopping-cart"></i></router-link>
+              </li>
             </ul>
           </div>
         </nav>
        
-        
     </div>
 </template>
 

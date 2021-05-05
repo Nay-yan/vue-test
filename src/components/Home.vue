@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <Master>
         <Nav/>
       <div class="container">
         <div class="card text-center">
@@ -16,16 +16,15 @@
           </div>
         </div>
       </div>
-
-    </div>
+    </Master>
 </template>
 
 <script>
 import Nav from "../layout/nav";
+import Master from "../layout/master"
     export default { 
       name:"Home",
-      components:{ Nav },
-       
+      components:{ Nav,Master },
         
     }
 </script>

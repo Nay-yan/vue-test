@@ -36,5 +36,10 @@ const router = new VueRouter({
 
 new Vue({
     router,
+    data() {
+        return {
+            cart: [],
+        }
+    },
     render: h => h(App),
 }).$mount('#app')

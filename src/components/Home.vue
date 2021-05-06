@@ -1,7 +1,7 @@
 <template>
     <Master>
         <Nav/>
-      <div class="container">
+      <div class="container homeSection">
         <div class="card text-center">
           <div class="card-header">
             Home
@@ -30,5 +30,7 @@ import Master from "../layout/master"
 </script>
 
 <style  scoped>
-
+.homeSection{
+  padding-top: 80px;
+}
 </style>

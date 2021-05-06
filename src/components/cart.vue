@@ -1,7 +1,7 @@
 <template>
      <Master>
         <Nav/>
-        <div class="container">
+        <div class="container cartSection">
             <h3>Cart</h3>
         </div>
     </Master>
@@ -18,5 +18,7 @@
 </script>
 
 <style scoped>
-
+    .cartSection{
+      padding-top: 80px;
+    }
 </style>
